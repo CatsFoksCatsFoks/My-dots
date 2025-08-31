@@ -1,0 +1,120 @@
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+    "color": {
+        "1": "blue",
+        "2":"blue"
+    }
+},
+"display": {
+    "separator": "  ",
+    "color": {
+        "keys": "blue",
+        "title": "magenta"
+    },
+    "key": {
+        "type": "icon",
+        "paddingLeft": 2
+    },
+    "bar": {
+        "width": 5,
+        "char": {
+            "elapsed": "■",
+            "total": "-"
+        }
+    },
+    "percent": {
+        "type": 9
+    }
+ },
+"modules": [
+    {
+        "type": "custom",
+        "format": "┌───────────────── System Information ─────────────────┐"
+    },
+    {
+    "type": "title",
+    "key": "title",
+    "keyColor":"blue"
+    },
+    {
+    "type": "os",
+    "key": "OS",
+    "keyColor":"blue"
+    },
+    {
+    "type": "kernel",
+    "key": "kernel",
+    "keyColor":"blue"
+    },
+    {
+    "type": "packages",
+    "key": "packages",
+    "keyColor":"blue"
+    },
+    {
+    "type": "shell",
+    "key": "shell",
+    "keyColor":"blue"
+    },
+    {
+    "type": "wm",
+    "key": "wm",
+    "keyColor":"blue"
+    },
+    {
+    "type": "host",
+    "key": "host",
+    "keyColor":"blue"
+    },
+    {
+    "type": "cpu",
+    "key": "cpu",
+    "keyColor":"blue"
+    },
+    {
+    "type": "gpu",
+    "key": "gpu",
+    "keyColor":"blue"
+    },
+    {
+    "type": "memory",
+    "key": "memory",
+    "keyColor":"blue"
+    },
+    {
+    "type": "display",
+    "key": "display",
+    "keyColor":"blue"
+    },
+    {
+    "type": "terminal",
+    "key": "terminal",
+    "keyColor":"blue"
+    },
+    {
+    "type": "terminalfont",
+    "key": "terminalfont",
+    "keyColor":"blue"
+    },
+    {
+    "type": "font",
+    "key": "font",
+    "keyColor":"blue"
+    },
+    {
+    "type": "locale",
+    "key": "locale",
+    "keyColor":"blue"
+    },
+    {
+        "type": "custom",
+        "format": "└──────────────────────────────────────────────────────┘"
+    },
+    {
+    "type": "colors",
+    "key": "colors",
+    "symbol": "circle"
+    }
+ ]
+}
