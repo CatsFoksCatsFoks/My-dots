@@ -1,0 +1,14 @@
+#sidebar-tools-and-extensions-splitter {
+  display:none !important;
+}
+
+.titlebar-buttonbox-container {
+    display: none !important;
+}
+
+.tab-close-button {
+    display: none !important;
+} 
+
+
+
